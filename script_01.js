@@ -23,9 +23,19 @@
 
 // 03 Deklaration + Wertzuweisung II
 
-let firstName,familyName;
-firstName = prompt("Bitte Vornamen eingeben:");
-familyName = prompt("Bitte Nachnamen eingeben:");
-console.log(firstName); // Ausgabe
-console.log(familyName); // Ausgabe
-console.log("Hallo " + firstName + " " + familyName + "!" ); // Ausgabe
+// let firstName,familyName;
+// firstName = prompt("Bitte Vornamen eingeben:");
+// familyName = prompt("Bitte Nachnamen eingeben:");
+// console.log(firstName); // Ausgabe
+// console.log(familyName); // Ausgabe
+// console.log("Hallo " + firstName + " " + familyName + "!" ); // Ausgabe
+
+// JS ist eine untypisierte Sprache! | untyped
+
+let test; // Deklaration (Definition)
+test = "hi"; // string
+test = 2; // number
+test = true; //boolean
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
